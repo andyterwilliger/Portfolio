@@ -9,6 +9,24 @@ html, body{
   height: 100%;
 }
 
+
+
+.color-nav{
+  background-color: #9ab7bd;
+}
+
 #home-body{
-  background-color: #c8d6cd;
+  background-color: #f5f5dc;
+  background-image: url('https://www.seekpng.com/png/full/49-492186_cityscape-transparent-skyline-chicago-chicago-skyline-no-background.png');
+  font-family: 'Inconsolata', monospace;
+  
+  
+}
+
+#home-h1{
+  font-size: 6rem;
+}
+
+#home-h2{
+  font-size: 3rem
 }

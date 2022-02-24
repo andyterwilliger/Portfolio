@@ -2,7 +2,7 @@ import * as ReactBootStrap from 'react-bootstrap';
 
 function Nav(){
     return(
-        <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <ReactBootStrap.Navbar className= 'color-nav' collapseOnSelect expand="lg" bg="primary-red" variant="dark">
   <ReactBootStrap.Container>
   <ReactBootStrap.Navbar.Brand href="/">Home</ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
