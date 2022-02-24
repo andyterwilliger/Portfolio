@@ -30,3 +30,25 @@ html, body{
 #home-h2{
   font-size: 3rem
 }
+
+#projects-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  
+
+}
+
+@media screen only and (max-width: 450px){
+  
+  #projects-cards{
+    display:flex;
+    flex-direction: column;
+
+
+  }
+}

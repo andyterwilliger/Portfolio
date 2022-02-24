@@ -13,9 +13,9 @@ function Nav(){
    
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link href="#deets">More deets</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-        Dank memes
+      <ReactBootStrap.Nav.Link href="#deets">Resume</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link eventKey={2} href="/contact">
+        Contact
       </ReactBootStrap.Nav.Link>
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
