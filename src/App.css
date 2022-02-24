@@ -17,7 +17,10 @@ html, body{
 
 #home-body{
   background-color: #f5f5dc;
-  background-image: url('https://www.seekpng.com/png/full/49-492186_cityscape-transparent-skyline-chicago-chicago-skyline-no-background.png');
+  background-image: url('https://www.seekpng.com/png/full/49-492186_cityscape-transparent-skyline-chicago-chicago-skyline-no-background.png' );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   font-family: 'Inconsolata', monospace;
   
   
@@ -31,16 +34,32 @@ html, body{
   font-size: 3rem
 }
 
+#projects-body{
+  min-height: 100vh;
+  background-color: #f5f5dc;
+  font-family: 'Inconsolata', monospace;
+}
+
 #projects-cards{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 20px;
-  grid-row-gap: 0px;
   grid-row-gap: 20px;
   justify-items: center;
   
 
+}
+
+#resume-body{
+  min-height: 100vh;
+  background-color: #f5f5dc;
+  font-family: 'Inconsolata', monospace;
+}
+
+#resume-img{
+  display:flex;
+  justify-content: center;
 }
 
 @media screen only and (max-width: 450px){

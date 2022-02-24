@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import {Route, Switch} from 'react-router-dom'
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path='/projects'>
             <Projects />
+          </Route>
+          <Route path='/resume'>
+            <Resume />
           </Route>
           <Route path='/contact'>
             <Contact />
