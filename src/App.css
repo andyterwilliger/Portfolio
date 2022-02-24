@@ -1,14 +1,14 @@
 .App {
   text-align: center;
-}
-ul{
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  color: #ffecd1;
-  background-color: #004e89;
+  
+
 }
 
-#home-comp{
-  background-color: #F7C59F;
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+#home-body{
+  background-color: #c8d6cd;
 }

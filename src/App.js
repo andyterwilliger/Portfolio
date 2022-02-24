@@ -5,15 +5,15 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-      <Router>
+    <div className='App'>
+      
         <Nav />
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <Home />
           </Route>
           <Route path='/about'>
@@ -26,7 +26,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-      </Router>
+    
 
     </div >
   );
