@@ -45,6 +45,7 @@ footer{
 #home-body{
   background-color: #f5f5dc;
   background-image: url('https://www.seekpng.com/png/full/49-492186_cityscape-transparent-skyline-chicago-chicago-skyline-no-background.png' );
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -81,6 +82,7 @@ footer{
   justify-items: center;
   border-radius: 10px;
   
+  
 }
 #project-btn1{
   width: 100%;
@@ -92,7 +94,8 @@ footer{
   cursor: pointer;
   background-color: #9ab7bd;
   transition: .3s ease background-color;
-
+  color:black;
+  font-family: 'Inconsolata', monospace;
 }
 
 #project-btn2{
@@ -105,6 +108,7 @@ footer{
   cursor: pointer;
   background-color: #9ab7bd;
   transition: .3s ease background-color;
+  color:black;
 
 }
 #project-btn3{
@@ -117,6 +121,8 @@ footer{
   cursor: pointer;
   background-color: #9ab7bd;
   transition: .3s ease background-color;
+  color:black;
+
 
 }
 #project-btn4{
@@ -129,6 +135,7 @@ footer{
   cursor: pointer;
   background-color: #9ab7bd;
   transition: .3s ease background-color;
+  color:black;
 
 }
 
@@ -195,7 +202,7 @@ footer{
   cursor: pointer;
   background-color: #9ab7bd;
   transition: .3s ease background-color;
-  
+  color:black;
   
 
 }

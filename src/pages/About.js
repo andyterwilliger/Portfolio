@@ -12,10 +12,10 @@ function About(props){
   <ReactBootStrap.Card.Body style = {{backgroundColor: '#f5f5dc'}}>
     <ReactBootStrap.Card.Title>About Me</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
-      <p>Hello there! My name is Andy Terwilliger and I am a developer living in Chicago, Illinois with my wife, Julia, and my dog, Henry.
-          I began my career in web development during the midst of the pandemic after spending the majority of my adult career as a firefighter, and by doing so I have found a passion for creating
-          well designed, clean, functional web applications. When not coding or building apps, you can usually find me running on Chicago's beautiful lakefront trail, watching a Cubs game, or simply hanging
-          out with my family. I hope you'll enjoy my portfolio. 
+      <p>Hello there! My name is Andy Terwilliger, and I am a developer living in Chicago, Illinois.
+          I began my career in web development during the midst of the pandemic after spending the majority of my adult career as a firefighter. By doing so, I have found a passion for creating
+          well-designed, clean, and functional web applications. When not coding or building apps, you can usually find me running on Chicago's beautiful lakefront trail, watching a Cubs game, or simply hanging
+          out with my wife, Julia, and my dog, Henry. I hope you'll enjoy my portfolio. 
       </p>
     </ReactBootStrap.Card.Text>
    <a target = '_blank'href='https://cat-collector-bucket2.s3.amazonaws.com/ATerwilligerResume.pdf' download><ReactBootStrap.Button id='resume-btn'>Download Resume</ReactBootStrap.Button></a>
