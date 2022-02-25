@@ -32,9 +32,9 @@ function Projects(props){
 </ReactBootStrap.Card>
 
 <ReactBootStrap.Card style={{ width: '20rem' }}>
-  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/oFMMXNv.png" />
+  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/IZaEP1x.png" />
   <ReactBootStrap.Card.Body>
-    <ReactBootStrap.Card.Title>BreweryFinder</ReactBootStrap.Card.Title>
+    <ReactBootStrap.Card.Title>WarHandler</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
