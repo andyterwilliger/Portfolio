@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -30,8 +31,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-    
-
+      <Footer />
     </div >
   );
 }

@@ -17,7 +17,7 @@ function Contact(props){
                 <input type="text" name="lastName" id="lastName"/>
                 </div>
                 <div className="form-group">
-                    <label for="email">Email</label>
+                    <label for="email">Email:</label>
                     <input type="email" name="email" id="email"/>
                 </div>
 

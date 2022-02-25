@@ -8,6 +8,25 @@
 
 .color-nav{
   background-color: #9ab7bd;
+  font-family: 'Inconsolata', monospace;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #9ab7bd;
+  height: 4%;
+
+  
+}
+
+#icons-ul{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
 }
 
 /* HOME */
@@ -19,8 +38,7 @@
   background-attachment: fixed;
   background-position: center;
   font-family: 'Inconsolata', monospace;
-  
-  
+ 
 }
 
 #home-h1{
@@ -68,19 +86,33 @@
   background-color: #f5f5dc;
 }
 
+#about-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+
 #about-img-container{
   display: flex;
+  align-items:center;
+  justify-content: center;
   
 }
 
 #about-img{
-  width: 25%;
+  width: 90%;
   border-radius: 10px;
 }
 
 #about-blurb{
   display: flex;
-  justify-content: right;
+  align-items:center;
+  justify-content: center;
+  
+  
 }
 
 /* CONTACT */
