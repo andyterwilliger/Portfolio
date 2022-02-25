@@ -25,10 +25,10 @@ footer{
 #icons-ul{
   display: flex;
   height: 100%;
-  width: 100%;
+  
   justify-content: space-around;
   align-content: center;
-  
+  padding-top: .1%;
 }
 
 .icon{
@@ -115,7 +115,21 @@ footer{
   
 }
 #resume-btn{
-  background-color: #ff6b35;
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #9ab7bd;
+  transition: .3s ease background-color;
+
+}
+
+#resume-btn:hover{
+  background-color: rgb(214, 226, 236)
+
 }
 
 
@@ -185,7 +199,7 @@ button[type = 'submit']:hover{
 }
 
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 600px){
   
   #home-h1{
     font-size: 3rem;

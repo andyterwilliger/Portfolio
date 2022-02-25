@@ -7,7 +7,7 @@ function Projects(props){
             <h1>Projects</h1>
       <div id = 'projects-cards'>
             <ReactBootStrap.Card style={{ width: '20rem' }}>
-  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/011JjhV.png" />
+  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/qDvV5H9.png" />
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>Runner's High</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
@@ -20,7 +20,7 @@ function Projects(props){
 
 
 <ReactBootStrap.Card style={{ width: '20rem' }}>
-  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/2J2mUnd.png" />
+  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/fIZXzIK.png" />
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>BrewReview</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
@@ -44,7 +44,7 @@ function Projects(props){
 </ReactBootStrap.Card>
 
 <ReactBootStrap.Card style={{ width: '20rem' }}>
-  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/oFMMXNv.png" />
+  <ReactBootStrap.Card.Img variant="top" src="https://i.imgur.com/Y9i1YFe.png" />
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>BreweryFinder</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
