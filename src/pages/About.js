@@ -1,26 +1,24 @@
+import * as ReactBootStrap from 'react-bootstrap';
+
 function About(props){
     return(
         <div id = 'about-body'>
-        <h1>About</h1>
+        
         <section id = 'about-container'>
-        <div id = 'about-img-container'>
-        <img id='about-img' src="https://i.imgur.com/x5CW8IT.jpg" alt="profile-img"/>
-        </div>
-       <div id = 'about-blurb'>
-            <p>
-                Well hello there! My name is Andy Terwilliger and I am a developer living in 
-                Chicago, Illinois. I am passionate, disciplined, and driven by a desire to learn 
-                as much as I can possibly get my hands on. 
-                My path to becoming a developer has certainly been an interesting one, considering just last 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, in dicta, harum inventore facilis consectetur voluptates aspernatur, numquam delectus atque magnam consequatur enim? Ipsam unde nobis dolores, aliquid excepturi corporis!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, repellendus asperiores? Sunt nihil nam aliquam maxime unde aut fugiat assumenda, sed quibusdam voluptatibus iste, veniam magnam omnis. Iure, voluptas voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, error. Velit, veritatis porro sed consequatur illo voluptatum soluta repellat tempore ipsa in labore vel facilis ad, doloribus similique laborum quidem!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur quibusdam eligendi odio, consectetur tempora expedita nesciunt explicabo ut veritatis facilis culpa eveniet dolor voluptatibus quisquam inventore omnis? Iure, iusto.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt, minus tempore officiis quia molestias iusto, quae modi eligendi sapiente nam cum unde est labore hic porro et soluta voluptates.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus alias pariatur id nemo neque cupiditate eligendi voluptatem, iusto earum quisquam laborum iure corporis quas deleniti voluptatibus ab quasi totam quam!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptas tenetur qui tempore, obcaecati dolores architecto, natus saepe a ad vitae perferendis illo nisi reprehenderit? Ipsa voluptatibus ab sed sit.
-            </p>
-        </div>
+        <ReactBootStrap.Card className ='about-card' style ={{border:'none'}}>
+  <div id ='bs-img-container'style = {{backgroundColor: '#f5f5dc'}} >
+  <ReactBootStrap.Card.Img id = 'bs-img' variant="top" src="https://i.imgur.com/x5CW8IT.jpg" />
+  </div>
+  <ReactBootStrap.Card.Body style = {{backgroundColor: '#f5f5dc'}}>
+    <ReactBootStrap.Card.Title>Runner's High</ReactBootStrap.Card.Title>
+    <ReactBootStrap.Card.Text>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur perspiciatis commodi maxime saepe alias dolore sed enim, ut asperiores deleniti, atque laudantium excepturi ex laborum dolorum. At blanditiis harum sunt?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officiis odio inventore itaque quam dolor similique harum, sit unde provident soluta corporis delectus maiores debitis quis at dolores, dolorem totam!
+    </ReactBootStrap.Card.Text>
+   <a target = '_blank'href='https://cat-collector-bucket2.s3.us-east-1.amazonaws.com/ATerwilligerResume.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLWVhc3QtMSJIMEYCIQC0V36u5bgMnFrs9h7Hu0urf6EjlNgHniu0gJ7V0AwfPQIhAIiqAKz87Xd9NOQbGWhQaSTFhLpQPsig19Mo4OECGU%2FyKu0CCK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzQxOTc0OTU3OTQ2IgwcquIVwR6MIzXPT40qwQJD3v8RACqSUwZ42sMxu%2B4nwCO0IMwCEVdtv4ea7s2YD6RJti3vK2f3%2F%2F27uMuzCMJYS7%2FhI4OwQ9pSfBb%2FZxRJukwAtC1L971V%2FSx5F8CGP687JtXpCeFqeKBVPSMHazfPRqrw7xRKev%2B7LtafFh%2Bh%2FMY%2BbGffT3R6IZ87MThp9vx6jbUvNjbE%2BgYd%2FWT1b9%2BlWe77jfRh8IYSDD6xbN4AFVwspUsPy4%2FiXQb5J0%2FNGFh1GeLrTLXdtKHaBXZs%2Bfojkf0o6ERveWUXokJgXVQOHAVj1CbiiNxG0GJTkMk8qe1Q6eOdT%2BPhQDXIdXiddvNpLh%2F0npR4HTQseosJrusw1PsDXnJwzQTKfLxAFQiHyVH1N371HDm7PNlDNwWMm8vOBThV0baR15Kl0as8Ip3Gv56o3Vw9sVWOVHPeS%2B0dFz4wioblkAY6sgKtyXuRJ%2FHontquFRa5dvlNLkEN0goG4N8foyTerrJ5mbD%2Fb%2BJGWSKQPfSBNOV%2Fx8IHXS3UzNlLcEI6LKSxTXaG8qhXG6t3AssxBoPqHqKr%2FDc9YyTM8XzTB9CllltKlLKV45Rz3%2BGSbHfmDWXZY0CKIAdRCGnQ8ld%2FOpBsxnuAIO5kbrHSshNjtRJM1yZUipmVpnGmt18vWYAx%2FUC4XTxiBnyoMxyGh7Z%2Bk48q5onaksBxIRoUg49sAKSUsB77PkCK5L0OdKi5YLPlJExICPJKJQUXPprIWFumeqYU766fC6OYEV2agRn%2Bo4d3hKn7mhXfeodXqW1JcVRb1m7VPXXfQ8iCfZdhs4cUINsACdxstRWxvcd%2BsurP9t28UgBJDumq7WYkPEaNkJeRpXerP%2F2H2UM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T210223Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA2ZQJHL55A7AVT77R%2F20220225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=70bab5a68a20df2b60055e2626762ab694c843d67c80ed00eebaa1451f7ffd6e' download><ReactBootStrap.Button>Download Resume</ReactBootStrap.Button></a>
+  </ReactBootStrap.Card.Body>
+</ReactBootStrap.Card>
+
         </section>
         </div>
     )

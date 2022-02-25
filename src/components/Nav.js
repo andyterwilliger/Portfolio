@@ -13,7 +13,6 @@ function Nav(){
    
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link href="/resume">Resume</ReactBootStrap.Nav.Link>
       <ReactBootStrap.Nav.Link eventKey={2} href="/contact">
         Contact
       </ReactBootStrap.Nav.Link>
