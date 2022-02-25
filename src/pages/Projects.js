@@ -11,10 +11,11 @@ function Projects(props){
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>Runner's High</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+     Full stack, CRUD application built on an Express.js framework. Users have the ability to
+     sign up for an account, log in, and add their running shoes while tracking mileage to be able to know
+     when to replace the shoes.
     </ReactBootStrap.Card.Text>
-    <ReactBootStrap.Button variant="primary">Go somewhere</ReactBootStrap.Button>
+    <ReactBootStrap.Button id= 'project-btn4' variant="primary">Launch</ReactBootStrap.Button>
   </ReactBootStrap.Card.Body>
 </ReactBootStrap.Card>
 
@@ -24,10 +25,11 @@ function Projects(props){
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>BrewReview</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      A full stack, CRUD application built with Python on a Django back end. Users have the ability
+      to sign up for an account, log in, and add their favorite beers while keeping track of statistics such as
+      the ABV, flavor profile, and location.
     </ReactBootStrap.Card.Text>
-    <ReactBootStrap.Button variant="primary">Go somewhere</ReactBootStrap.Button>
+    <ReactBootStrap.Button id='project-btn1' variant="primary">Launch</ReactBootStrap.Button>
   </ReactBootStrap.Card.Body>
 </ReactBootStrap.Card>
 
@@ -36,10 +38,10 @@ function Projects(props){
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>WarHandler</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      A full stack React application built on an Express back end. I worked across the stack on a team of fellow developers to build
+      an app where a user can create and track different units from the popular tabletop game 'WarHammer 40K'.
     </ReactBootStrap.Card.Text>
-    <ReactBootStrap.Button variant="primary">Go somewhere</ReactBootStrap.Button>
+    <ReactBootStrap.Button id= 'project-btn2' variant="primary">Launch</ReactBootStrap.Button>
   </ReactBootStrap.Card.Body>
 </ReactBootStrap.Card>
 
@@ -48,10 +50,10 @@ function Projects(props){
   <ReactBootStrap.Card.Body>
     <ReactBootStrap.Card.Title>BreweryFinder</ReactBootStrap.Card.Title>
     <ReactBootStrap.Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      A simple front end application built using HTML, Vanilla JavaScript, CSS, and the OpenBreweryDB API. Users can search for their current city, and an AJAX request to
+      the  API will return a selection of breweries in that city. 
     </ReactBootStrap.Card.Text>
-    <ReactBootStrap.Button variant="primary">Go somewhere</ReactBootStrap.Button>
+    <ReactBootStrap.Button id= 'project-btn3'  variant="primary">Launch</ReactBootStrap.Button>
   </ReactBootStrap.Card.Body>
 </ReactBootStrap.Card>
 </div>

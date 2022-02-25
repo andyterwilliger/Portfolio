@@ -9,14 +9,14 @@ function Footer() {
                         <div>
                             <li >
                             <a target = '_blank' href= 'https://github.com/andyterwilliger'>
-                                <FontAwesomeIcon icon={faGithub} size='2x' className='icon'  />
+                                <FontAwesomeIcon icon={faGithub} size='3x' className='icon'  />
                             </a>
                             </li>
                         </div>
                         <div id='linkedin-i'>
                             <li>
                             <a target = '_blank' href= 'https://www.linkedin.com/in/andy-terwilliger/'>
-                            <FontAwesomeIcon icon={faLinkedin} size='2x' className='icon' />
+                            <FontAwesomeIcon icon={faLinkedin} size='3x' className='icon' />
                             </a>
                             </li>
                         </div>
@@ -24,7 +24,7 @@ function Footer() {
                             <li>
                             <a target = '_blank' href= 'https://stackoverflow.com/users/18311028/andy123'>
 
-                                <FontAwesomeIcon icon= {faStackOverflow} size= '2x' className='icon'/>
+                                <FontAwesomeIcon icon= {faStackOverflow} size= '3x' className='icon'/>
                                 </a>
                             </li>
 
