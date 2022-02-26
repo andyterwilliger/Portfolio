@@ -2,7 +2,7 @@ function Contact(props){
 
     return(
         <div id = 'contact-body'>
-            <h1>Contact Page</h1>
+            <h1>Contact Me</h1>
             <section>
             <div id ='form-container'>
             <form action="https://formspree.io/f/mvolaeyj"
